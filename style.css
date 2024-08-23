@@ -1,0 +1,56 @@
+body {
+
+    background-color: rgb(167, 112, 218);
+
+}
+
+
+header{
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 1;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(187, 1, 162);
+}
+
+.categoria h2 {
+    color: rgb(0, 0, 0);
+}
+
+.chamada {
+    background-color: rgb(241, 131, 232);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 7%;
+}
+
+h1{
+font-size:40px;
+
+}
